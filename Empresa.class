@@ -1,0 +1,93 @@
+package Empresa;
+
+public class empresa {
+
+	public String cnpjempresa;
+	public String nomefantasia;
+	public String enderecoempresa;
+	public String telefoneempresa;
+	public String emailempresa;
+	
+	public void mostrardetalhes(Empresa.empresa empresa) {
+	
+		System.out.println("\tInformações da Empresa\n");
+		System.out.println("Nome da Empresa: " + empresa.nomefantasia);
+		System.out.println("Endereço Empresa: " + empresa.enderecoempresa);
+		System.out.println("Telefone empresa: " + empresa.telefoneempresa);
+	    System.out.println("Código Nacional de P. Juridica :" + empresa.cnpjempresa);
+	    System.out.println("Email Empresa: " + empresa.emailempresa);
+	    
+		
+	}
+	public empresa() {
+		
+	}
+	/**
+	 * @return the nomefantasia
+	 */
+	public String getNomefantasia() {
+		return nomefantasia;
+	}
+	/**
+	 * @param nomefantasia the nomefantasia to set
+	 */
+	public void setNomefantasia(String nomefantasia) {
+		this.nomefantasia = nomefantasia;
+	}
+	/**
+	 * @return the enderecoempresa
+	 */
+	public String getEnderecoempresa() {
+		return enderecoempresa;
+	}
+	/**
+	 * @param enderecoempresa the enderecoempresa to set
+	 */
+	public void setEnderecoempresa(String enderecoempresa) {
+		this.enderecoempresa = enderecoempresa;
+	}
+	/**
+	 * @return the telefoneempresa
+	 */
+	public String getTelefoneempresa() {
+		return telefoneempresa;
+	}
+	/**
+	 * @param telefoneempresa the telefoneempresa to set
+	 */
+	public void setTelefoneempresa(String telefoneempresa) {
+		this.telefoneempresa = telefoneempresa;
+	}
+	/**
+	 * @return the cnpjempresa
+	 */
+	public String getCnpjempresa() {
+		return cnpjempresa;
+	}
+	/**
+	 * @param cnpjempresa the cnpjempresa to set
+	 */
+	public void setCnpjempresa(String cnpjempresa) {
+		this.cnpjempresa = cnpjempresa;
+	}
+	/**
+	 * @return the emailempresa
+	 */
+	public String getEmailempresa() {
+		return emailempresa;
+	}
+	/**
+	 * @param emailempresa the emailempresa to set
+	 */
+	public void setEmailempresa(String emailempresa) {
+		this.emailempresa = emailempresa;
+	}
+	
+	
+
+
+
+
+	
+	
+}
