@@ -1,0 +1,46 @@
+package Empresa;
+
+public class CadastroDeCliente {
+
+	private static clientepf clientepf;
+	private static clientepj clientepj;
+	private static empresa empresa;
+	
+	public static void main(String[] args) {
+		
+	System.out.println("\tTELA CADASTRO DE CLIENTES\n");
+	
+	clientepf = new clientepf();
+	
+	clientepf.nome = "Fulano de tal";
+	clientepf.telefone = "1235-0000";
+	clientepf.idade = "50 anos";
+	clientepf.endereco = "Rua da felicidade, Bairro alegre, numero 100, cidade sorriso";
+	clientepf.rg = "123345678";
+	clientepf.cpf = "12345567789";
+	clientepf.email = "fulanodetal@mail.com";
+	
+	clientepf.mostrardetalhes(clientepf);
+	
+	clientepj = new clientepj(clientepj);
+	
+	clientepj.nomepj = "Ciclano de Tal";
+	clientepj.enderecopj = "Rua das flores, Bairro cheiroso, numero 10, cidade petalas";
+	clientepj.telefonepj = "2332-0000";
+	clientepj.cnpjpj = "123-2345-098-0001";
+	clientepj.emailpj = "cilanodetal@mail.com";
+	
+	clientepj.mostrardetalhes(clientepj);
+	
+	empresa = new empresa();
+	
+	empresa.nomefantasia = "Empresa do futuro";
+	empresa.enderecoempresa = "Rua futuristica, numero 100, Bairro Futuro, Cidade do Futuro";
+	empresa.telefoneempresa = "1234-0000";
+	empresa.cnpjempresa = "1234.5646-0001";
+	empresa.emailempresa = "empresa@empresa.com";
+	
+	empresa.mostrardetalhes(empresa);
+	
+	}
+}
