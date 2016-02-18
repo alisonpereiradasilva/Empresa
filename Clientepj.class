@@ -1,0 +1,108 @@
+  package Empresa;
+
+public class clientepj {
+
+	public String nomepj;
+	public String enderecopj;
+	public String telefonepj;
+	public String cnpjpj;
+	public String emailpj;
+	
+	
+	
+
+
+	public void mostrardetalhes(Empresa.clientepj clientepj) {
+		
+		System.out.println("\tInformaçoes cadastro pessoa jurídica\n");
+		System.out.println("Nome Pessoa Jurídica: " + clientepj.nomepj);
+		System.out.println("Endereço: " + clientepj.enderecopj);
+		System.out.println("Telefone: " + clientepj.telefonepj);
+		System.out.println("Código Nacional de P. Juridica: " + clientepj.cnpjpj);
+		System.out.println("E-mail :" + clientepj.emailpj);
+
+		
+	}
+	public clientepj(Empresa.clientepj clientepj) {
+	}
+
+	/**
+	 * @return the nomepj
+	 */
+	public String getNomepj() {
+		return nomepj;
+	}
+
+
+	/**
+	 * @param nomepj the nomepj to set
+	 */
+	public void setNomepj(String nomepj) {
+		this.nomepj = nomepj;
+	}
+
+
+	/**
+	 * @return the enderecopj
+	 */
+	public String getEnderecopj() {
+		return enderecopj;
+	}
+
+
+	/**
+	 * @param enderecopj the enderecopj to set
+	 */
+	public void setEnderecopj(String enderecopj) {
+		this.enderecopj = enderecopj;
+	}
+
+
+	/**
+	 * @return the telefonepj
+	 */
+	public String getTelefonepj() {
+		return telefonepj;
+	}
+
+
+	/**
+	 * @param telefonepj the telefonepj to set
+	 */
+	public void setTelefonepj(String telefonepj) {
+		this.telefonepj = telefonepj;
+	}
+
+
+	/**
+	 * @return the cnpjpj
+	 */
+	public String getCnpjpj() {
+		return cnpjpj;
+	}
+
+
+	/**
+	 * @param cnpjpj the cnpjpj to set
+	 */
+	public void setCnpjpj(String cnpjpj) {
+		this.cnpjpj = cnpjpj;
+	}
+
+
+	/**
+	 * @return the emailpj
+	 */
+	public String getEmailpj() {
+		return emailpj;
+	}
+
+
+	/**
+	 * @param emailpj the emailpj to set
+	 */
+	public void setEmailpj(String emailpj) {
+		this.emailpj = emailpj;
+	}
+
+}
